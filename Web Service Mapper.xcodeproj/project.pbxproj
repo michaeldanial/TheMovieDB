@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0A223E821A411790084264B /* ProductionCompaniesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A223E721A411790084264B /* ProductionCompaniesDTO.swift */; };
+		A0A223EA21A41A2A0084264B /* MovieInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A223E921A41A2A0084264B /* MovieInfoDTO.swift */; };
+		A0A223EC21A41BD70084264B /* GenresDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A223EB21A41BD70084264B /* GenresDTO.swift */; };
+		A0BDC71E21A08B6500ABCE6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDC71D21A08B6500ABCE6B /* ViewController.swift */; };
+		A0BDC72021A08B9F00ABCE6B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDC71F21A08B9E00ABCE6B /* WebService.swift */; };
+		A0E9884F21A2E7900062BBA7 /* FilmDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9884E21A2E78F0062BBA7 /* FilmDetail.swift */; };
+		A0E9885121A2E8F40062BBA7 /* CompaniesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9885021A2E8F40062BBA7 /* CompaniesCell.swift */; };
 		A0F6B30921920A1200DC15C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B30821920A1200DC15C4 /* AppDelegate.swift */; };
-		A0F6B30B21920A1200DC15C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B30A21920A1200DC15C4 /* ViewController.swift */; };
 		A0F6B30E21920A1200DC15C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6B30C21920A1200DC15C4 /* Main.storyboard */; };
 		A0F6B31021920A1200DC15C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F6B30F21920A1200DC15C4 /* Assets.xcassets */; };
 		A0F6B31321920A1200DC15C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6B31121920A1200DC15C4 /* LaunchScreen.storyboard */; };
+		A0F6B31D21920A6300DC15C4 /* MovieDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B31C21920A6200DC15C4 /* MovieDTO.swift */; };
+		A0F6B31F21920A7400DC15C4 /* DiscoverMovieResultsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B31E21920A7400DC15C4 /* DiscoverMovieResultsDTO.swift */; };
+		A0F6B32321920A9C00DC15C4 /* FilmMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B32221920A9C00DC15C4 /* FilmMainCell.swift */; };
+		BC09C556331BBF063E3E2F8D /* Pods_Web_Service_Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F94CBC5A02C52F16CBF4662 /* Pods_Web_Service_Mapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F94CBC5A02C52F16CBF4662 /* Pods_Web_Service_Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Web_Service_Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558B51AC4DB67997E91519C9 /* Pods-Web Service Mapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web Service Mapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Web Service Mapper/Pods-Web Service Mapper.debug.xcconfig"; sourceTree = "<group>"; };
+		9D173DAE8885D75F17FC2019 /* Pods-Web Service Mapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web Service Mapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Web Service Mapper/Pods-Web Service Mapper.release.xcconfig"; sourceTree = "<group>"; };
+		A0A223E721A411790084264B /* ProductionCompaniesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompaniesDTO.swift; sourceTree = "<group>"; };
+		A0A223E921A41A2A0084264B /* MovieInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoDTO.swift; sourceTree = "<group>"; };
+		A0A223EB21A41BD70084264B /* GenresDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresDTO.swift; sourceTree = "<group>"; };
+		A0BDC71D21A08B6500ABCE6B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0BDC71F21A08B9E00ABCE6B /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A0E9884E21A2E78F0062BBA7 /* FilmDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilmDetail.swift; path = "../../Scroll View/Scroll View/FilmDetail.swift"; sourceTree = "<group>"; };
+		A0E9885021A2E8F40062BBA7 /* CompaniesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesCell.swift; sourceTree = "<group>"; };
 		A0F6B30521920A1200DC15C4 /* Web Service Mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Service Mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F6B30821920A1200DC15C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0F6B30A21920A1200DC15C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0F6B30D21920A1200DC15C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0F6B30F21920A1200DC15C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0F6B31221920A1200DC15C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F6B31421920A1200DC15C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F6B31C21920A6200DC15C4 /* MovieDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieDTO.swift; path = "../../../Diploma/Web Service Continued/Web Service/MovieDTO.swift"; sourceTree = "<group>"; };
+		A0F6B31E21920A7400DC15C4 /* DiscoverMovieResultsDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoverMovieResultsDTO.swift; path = "../../../Diploma/Web Service Continued/Web Service/DiscoverMovieResultsDTO.swift"; sourceTree = "<group>"; };
+		A0F6B32221920A9C00DC15C4 /* FilmMainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilmMainCell.swift; path = "../../Web Services 1/Web Services 1/FilmMainCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC09C556331BBF063E3E2F8D /* Pods_Web_Service_Mapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B96699AF8037910A1D1BE35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				558B51AC4DB67997E91519C9 /* Pods-Web Service Mapper.debug.xcconfig */,
+				9D173DAE8885D75F17FC2019 /* Pods-Web Service Mapper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A0F6B2FC21920A1200DC15C4 = {
 			isa = PBXGroup;
 			children = (
 				A0F6B30721920A1200DC15C4 /* Web Service Mapper */,
 				A0F6B30621920A1200DC15C4 /* Products */,
+				5B96699AF8037910A1D1BE35 /* Pods */,
+				E3EACF5C9C0EC11E73E4B216 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +89,30 @@
 			isa = PBXGroup;
 			children = (
 				A0F6B30821920A1200DC15C4 /* AppDelegate.swift */,
-				A0F6B30A21920A1200DC15C4 /* ViewController.swift */,
 				A0F6B30C21920A1200DC15C4 /* Main.storyboard */,
+				A0BDC71D21A08B6500ABCE6B /* ViewController.swift */,
+				A0E9884E21A2E78F0062BBA7 /* FilmDetail.swift */,
+				A0BDC71F21A08B9E00ABCE6B /* WebService.swift */,
+				A0A223E921A41A2A0084264B /* MovieInfoDTO.swift */,
+				A0A223EB21A41BD70084264B /* GenresDTO.swift */,
+				A0A223E721A411790084264B /* ProductionCompaniesDTO.swift */,
+				A0F6B31E21920A7400DC15C4 /* DiscoverMovieResultsDTO.swift */,
+				A0F6B31C21920A6200DC15C4 /* MovieDTO.swift */,
+				A0F6B32221920A9C00DC15C4 /* FilmMainCell.swift */,
+				A0E9885021A2E8F40062BBA7 /* CompaniesCell.swift */,
 				A0F6B30F21920A1200DC15C4 /* Assets.xcassets */,
 				A0F6B31121920A1200DC15C4 /* LaunchScreen.storyboard */,
 				A0F6B31421920A1200DC15C4 /* Info.plist */,
 			);
 			path = "Web Service Mapper";
+			sourceTree = "<group>";
+		};
+		E3EACF5C9C0EC11E73E4B216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F94CBC5A02C52F16CBF4662 /* Pods_Web_Service_Mapper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0F6B31721920A1200DC15C4 /* Build configuration list for PBXNativeTarget "Web Service Mapper" */;
 			buildPhases = (
+				80ED3BABC1ADD4776F60FA78 /* [CP] Check Pods Manifest.lock */,
 				A0F6B30121920A1200DC15C4 /* Sources */,
 				A0F6B30221920A1200DC15C4 /* Frameworks */,
 				A0F6B30321920A1200DC15C4 /* Resources */,
+				B658EA51457DF67AB44F4619 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,13 +184,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80ED3BABC1ADD4776F60FA78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Web Service Mapper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B658EA51457DF67AB44F4619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Web Service Mapper/Pods-Web Service Mapper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDLoader/SDLoader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDLoader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Web Service Mapper/Pods-Web Service Mapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0F6B30121920A1200DC15C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F6B30B21920A1200DC15C4 /* ViewController.swift in Sources */,
+				A0BDC72021A08B9F00ABCE6B /* WebService.swift in Sources */,
+				A0BDC71E21A08B6500ABCE6B /* ViewController.swift in Sources */,
+				A0F6B31F21920A7400DC15C4 /* DiscoverMovieResultsDTO.swift in Sources */,
+				A0F6B31D21920A6300DC15C4 /* MovieDTO.swift in Sources */,
+				A0F6B32321920A9C00DC15C4 /* FilmMainCell.swift in Sources */,
+				A0E9885121A2E8F40062BBA7 /* CompaniesCell.swift in Sources */,
+				A0A223E821A411790084264B /* ProductionCompaniesDTO.swift in Sources */,
 				A0F6B30921920A1200DC15C4 /* AppDelegate.swift in Sources */,
+				A0A223EC21A41BD70084264B /* GenresDTO.swift in Sources */,
+				A0A223EA21A41A2A0084264B /* MovieInfoDTO.swift in Sources */,
+				A0E9884F21A2E7900062BBA7 /* FilmDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +381,7 @@
 		};
 		A0F6B31821920A1200DC15C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558B51AC4DB67997E91519C9 /* Pods-Web Service Mapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +396,7 @@
 		};
 		A0F6B31921920A1200DC15C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D173DAE8885D75F17FC2019 /* Pods-Web Service Mapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
